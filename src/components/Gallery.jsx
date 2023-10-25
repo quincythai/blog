@@ -33,8 +33,8 @@ function Gallery () {
         customLink: "./QuincyPage",
         },
         {
-        original: 'https://media.glamourmagazine.co.uk/photos/61388cc92b5bbea008291859/16:9/w_2240,c_limit/iStock-545338914.jpg',
-        thumbnail: 'https://media.glamourmagazine.co.uk/photos/61388cc92b5bbea008291859/16:9/w_2240,c_limit/iStock-545338914.jpg',
+        original: 'https://as1.ftcdn.net/v2/jpg/01/41/89/58/1000_F_141895888_9SdMBT0vTlC7bm5u3B06AZqRRMcWSIhR.jpg',
+        thumbnail: 'https://as1.ftcdn.net/v2/jpg/01/41/89/58/1000_F_141895888_9SdMBT0vTlC7bm5u3B06AZqRRMcWSIhR.jpg',
         customLink: "./about",
         },
     ]
