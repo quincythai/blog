@@ -6,14 +6,14 @@ const JQPage = () => {
     return (
         <>
             <TopBar/>
-            <div class='parallax'>
-                <div class='parallax-text'>
+            <div className='parallax'>
+                <div className='parallax-text'>
                 <h1>
                 An EXCLUSIVE Interview with Tincy Qhai
                 </h1>
                 </div>
             </div>
-            <div class='Title-wrapper'>
+            <div className='Title-wrapper'>
                 <h1>
                 Author of best-selling books:
                 </h1>
@@ -24,8 +24,8 @@ const JQPage = () => {
                     Interviewed by Jonathan Quitoriano
                 </p>
             </div>
-            <div class='text'>
-                    <p class='intro'>
+            <div className='text'>
+                    <p className='intro'>
                         Tincy Qhai is the latest and self-proclaimed greatest in a long line of people trying to guide others in living better lives.
                         The difference? This time, Qhai is using a historical precedent as a guide, living a better life through what he calls the 
                         "Gilgamesh Grindset". We've welcomed him onto the times in order to speak a little bit about how you can lock in and live better.
