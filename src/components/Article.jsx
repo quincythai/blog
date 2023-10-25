@@ -12,7 +12,7 @@ const Article = () => {
                 <div className="author-article-container">
                     <div className="author-info">
                         <img src={the_method} alt="" />
-                        <p>Written by: Tincy Qhai Himself.</p>
+                        <p>Written by: Tincy Qhai</p>
                     </div>
                     <div className="article">
                         <p>Alright bruh... listen up... YOU. WANT. TO. KNOW. THE. METHOD. Look no further because what I'm about to tell you is the long kept secret of the <em>Epic of Gilgamesh</em>'s method.</p>
@@ -23,9 +23,8 @@ const Article = () => {
                         <p style={{color: 'red', textAlign: 'center'}}>GOODNESS...</p>
                         <p>Anyways, I had to abruptly apologize and clean off his bumberhootens with a scrappy paper towel--and then he proceeded with a spiel called: <span style={{color: 'green', fontStyle: 'italic'}}>THE METHOD</span></p>
                         <p>What he said was that I need to simply...</p>
-                        <img src={peter} alt="MOOD." />
-                        <p>That was literally it.</p>
-                        <p>and my brain literally EXPLODED...</p>
+                        <img src={peter} alt="MOOD." style={{width: 300}}/>
+                        <p>That was literally it and my brain literally EXPLODED...</p>
 
                         <p>I went to Atlanta and now I'm on a mission to change the world with slop and gruel. Remember to like subscribe share and retweet!</p>
 

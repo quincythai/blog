@@ -4,6 +4,11 @@
     margin: 50px;
     text-align: center;
 }
+
+.parallax-text h1 {
+    font-size: 50px;
+}
+
 .parallax {
     display: flex;
     align-items: center;
