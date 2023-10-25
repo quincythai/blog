@@ -1,0 +1,41 @@
+.container {
+    display: flex;
+    flex-direction: column; /* Display author and article side by side */
+    padding: 0px 300px; /* Adjust padding as needed */
+}
+
+header {
+    text-align: center;
+    font-weight: bold;
+    padding: 40px;
+    font-size: 60px;
+}
+
+.author-info {
+    display: inline-block;
+    width: 160px;
+    height: auto;
+    padding: 40px;
+    border-radius: 20px;
+    background-color: gainsboro;
+    text-align: center;
+    border: solid black;
+}
+
+.author-article-container {
+    display: flex;
+    gap: 40px;
+}
+
+.author-info img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.author-info p {
+    color: black;
+}
+
+.article {
+    font-size: 24px;
+}

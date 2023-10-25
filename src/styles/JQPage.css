@@ -1,0 +1,63 @@
+.Title-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+    color:white;
+}
+.intro {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+.text {
+    margin-left: 25%;
+    margin-right: 25%;
+    color: white;
+}
+.J {
+    color: #FF9001;
+}
+.J:hover {
+    text-shadow: 0 0 10px #FF9001;
+}
+.Q {
+    color: #1a738a;
+}
+.Q:hover {
+    text-shadow: 0 0 10px #1a738a;
+}
+.Editor {
+    color: white;
+}
+.parallax-text {
+    color: white;
+    padding: 10px;
+    margin: 50px;
+    background-color: transparent;
+    text-shadow: 0 0 10px black;
+    font-weight: bold;
+    font-size: 40px;
+}
+.parallax {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* The image used */
+    background-image: url('/pop_art_gilgamesh.png');
+
+    /* Set a specific height */
+    height: 350px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+@media only screen and (max-device-width: 1366px) {
+    .parallax {
+        background-attachment: scroll;
+    }
+}

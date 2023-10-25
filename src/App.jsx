@@ -4,6 +4,8 @@ import HomePage from './pages/HomePage'
 import DiegoPage from './pages/DiegoPage'
 import QuincyPage from './pages/QuincyPage'
 import JQPage from './pages/JQPage'
+import AboutPage from './pages/about'
+import Footer from './components/Footer'
 
 const App = () => {
   const router = createBrowserRouter([
@@ -22,12 +24,19 @@ const App = () => {
     {
       path: '/JQPage',
       element:<JQPage/>
-    }
+    },
+    {
+      path: '/about',
+      element: <AboutPage/>
+    },
   ]);
+
+
   
   return (
     <>
-    <RouterProvider router = {router}/>
+      <RouterProvider router = {router}/>
+      <Footer/>
     </>
   )
 };

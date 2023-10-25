@@ -1,0 +1,21 @@
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    background-color: black;
+    gap: 40px;
+    font-size: 20px;
+    bottom: 0;
+    left: 0;
+}
+
+.footer a, .footer_time p {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.footer > * {
+    color: #1a738a;
+}

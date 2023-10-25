@@ -1,7 +1,19 @@
+import TopBar from "../components/TopBar";
+import Parallax from "../components/Parallax";
+import Footer from "../components/Footer";
+import backgroundImage from '/thanos.jpg';
+import Article from "../components/Article";
+import '../styles/normalize.css';
+import '../styles/Page.css';
+
+
+
 const QuincyPage = () => {
     return (
         <>
-            <h1>This is Quincy's Page</h1>
+            <TopBar/>
+            <Parallax title="My Fella, Do You Want To Know the Method...?" image={backgroundImage}/>
+            <Article />
         </>
     )
 }

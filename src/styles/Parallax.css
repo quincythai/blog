@@ -1,0 +1,25 @@
+.parallax-text {
+    color: white;
+    padding: 10px;
+    margin: 50px;
+}
+.parallax {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* The image used */
+
+    /* Set a specific height */
+    height: 200px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+@media only screen and (max-device-width: 1366px) {
+    .parallax {
+        background-attachment: scroll;
+    }
+}

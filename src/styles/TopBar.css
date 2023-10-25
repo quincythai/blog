@@ -1,0 +1,43 @@
+@font-face {
+  font-family: 'Chomsky';
+  src: local('Chomsky'), url(../fonts/Chomsky-8MOa2.otf) format('opentype');
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 40px;
+  background-color: black;
+  position: sticky;
+  margin: 0px 0px;
+}
+
+.navbar-links {
+  list-style-type: none;
+  display: flex;
+  gap: 20px;
+  font-size: 1.3rem;
+}
+
+.navbar-logo {
+  font-size: 2rem;
+  font-weight: bold;
+  color: white;
+  list-style-type: none;
+  text-decoration: none;
+  font-family: 'Chomsky';
+}
+
+.link {
+  list-style-type: none;
+  text-decoration: none;
+  color: white;
+  padding:23px 20px;
+}
+
+.link:hover {
+  background-color: #878585;
+  /* color: #878585; */
+
+}
