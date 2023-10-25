@@ -13,16 +13,16 @@ const JQPage = () => {
                 </h1>
                 </div>
             </div>
-            <div className='Title-wrapper'>
-                <h1>
-                Author of best-selling books:
-                </h1>
-                <h2>
-                    "The Gilgamesh Grindset" and "Lock the F*&% In"
-                </h2>
-                <p>
-                    Interviewed by Jonathan Quitoriano
-                </p>
+            <div className='Title-wrapper animate__animated animate__backInUp'>
+                    <h1>
+                    Author of best-selling books:
+                    </h1>
+                    <h2>
+                        "The Gilgamesh Grindset" and "Lock the F*&% In"
+                    </h2>
+                    <p>
+                        Interviewed by Jonathan Quitoriano
+                    </p>
             </div>
             <div className='text'>
                     <p className='intro'>
