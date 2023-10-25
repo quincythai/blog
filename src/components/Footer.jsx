@@ -1,4 +1,3 @@
-import React from 'react';
 import { useState, useEffect } from 'react';
 import '../styles/Footer.css';
 
@@ -24,7 +23,7 @@ function Footer() {
         <>
             <footer className="footer">
                 <a href="/about">About Us</a>
-                    <p>&copy; {new Date().getFullYear()} Your Website. All Rights Reserved.</p>
+                    <p>&copy; {new Date().getFullYear()} Gilgamesh Times</p>
                     <p>Current Time: {currentTime}</p>
             </footer>
         </>
