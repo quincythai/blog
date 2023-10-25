@@ -13,7 +13,7 @@ const JQPage = () => {
                 </h1>
                 </div>
             </div>
-            <div className='Title-wrapper'>
+            <div className='Title-wrapper animate__animated animate__fadeInUp'>
                 <h1>
                 Author of best-selling books:
                 </h1>
@@ -25,7 +25,7 @@ const JQPage = () => {
                 </p>
             </div>
             <div className='text'>
-                    <p className='intro'>
+                    <p className='intro animate__animated animate__fadeInUp'>
                         Tincy Qhai is the latest and self-proclaimed greatest in a long line of people trying to guide others in living better lives.
                         The difference? This time, Qhai is using a historical precedent as a guide, living a better life through what he calls the 
                         "Gilgamesh Grindset". We've welcomed him onto the times in order to speak a little bit about how you can lock in and live better.
