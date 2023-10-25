@@ -33,11 +33,10 @@
   list-style-type: none;
   text-decoration: none;
   color: white;
-  padding:23px 20px;
+  padding: 23px 20px;
+  transition: background-color 0.2s, color 0.2s; /* Add a transition for both background-color and color */
 }
 
 .link:hover {
   background-color: #878585;
-  /* color: #878585; */
-
 }
