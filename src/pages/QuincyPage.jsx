@@ -1,21 +1,21 @@
 import TopBar from "../components/TopBar";
 import Parallax from "../components/Parallax";
-import Footer from "../components/Footer";
-import backgroundImage from '/thanos.jpg';
+import backgroundImage from "/thanos.jpg";
 import Article from "../components/Article";
-import '../styles/normalize.css';
-import '../styles/Page.css';
-
-
+import "../styles/normalize.css";
+import "../styles/Page.css";
 
 const QuincyPage = () => {
-    return (
-        <>
-            <TopBar/>
-            <Parallax title="My Fella, Do You Want To Know the Method...?" image={backgroundImage}/>
-            <Article />
-        </>
-    )
-}
+  return (
+    <>
+      <TopBar />
+      <Parallax
+        title="My Fella, Do You Want To Know the Method...?"
+        image={backgroundImage}
+      />
+      <Article />
+    </>
+  );
+};
 
 export default QuincyPage;

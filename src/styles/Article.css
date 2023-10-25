@@ -14,12 +14,13 @@ header {
 .author-info {
     display: inline-block;
     width: 160px;
-    height: auto;
+    height: 300px;
     padding: 40px;
     border-radius: 20px;
     background-color: gainsboro;
     text-align: center;
     border: solid black;
+    align-self: first baseline;
 }
 
 .author-article-container {
