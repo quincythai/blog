@@ -13,3 +13,30 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 }
+
+/* Transition.css */
+.page-transition-enter {
+  /* Define the initial state for entering */
+  opacity: 0;
+  transform: translateY(20px);
+}
+
+.page-transition-enter-active {
+  /* Define the state when entering */
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 300ms, transform 300ms;
+}
+
+.page-transition-exit {
+  /* Define the initial state for exiting */
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.page-transition-exit-active {
+  /* Define the state when exiting */
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 300ms, transform 300ms;
+}
