@@ -13,7 +13,7 @@ const HomePage = () => {
     return (
         <>
             <TopBar/>
-            <h1 style={headingStyle}>WELCOME TO THE GILGAMESH TIMES</h1>
+            <h1 style={headingStyle}>Welcome to The Gilgamesh Times.</h1>
             <Gallery/>
         </>
     );

@@ -1,15 +1,14 @@
 import React from "react";
 import { Link } from 'react-router-dom';
 import logo from '/gilgamesh_sideways.jpeg';
-import '../styles/TopBar.css';
-import '../fonts/Chomsky-8MOa2.otf';
+import '../styles/TopBar.css'
 
 const TopBar = () => {
   return (
     <>
       <nav className="navbar">
         <div className="navbar-logo">
-          <Link to="/" className="navbar-logo">GILGAMESH TIMES OFFICIAL &#8482;</Link>
+          <Link to="/" className="navbar-logo">Gilgamesh News</Link>
         </div>
         <ul className="navbar-links">
           <li>
